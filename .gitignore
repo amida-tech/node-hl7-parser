@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules
+
+# Use yarn instead of npm
+package-lock.json
+
+# Optional npm cache directory
+.npm
+
+# build and target objects
+target

@@ -189,7 +189,7 @@
 
       it('passes in intermediate xml to the bridge', function() {
         expect(javaBridgeParser.xmlToHl7)
-          .toHaveBeenCalledWith('<intermediate xmlns="urn:hl7-org:v2xml"></intermediate>',
+          .toHaveBeenCalledWith('<?xml version=\'1.0\'?><intermediate xmlns="urn:hl7-org:v2xml">undefined</intermediate>',
                                 jasmine.any(Function));
       });
     });
